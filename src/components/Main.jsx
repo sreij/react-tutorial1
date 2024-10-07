@@ -3,7 +3,7 @@ import Gallery from "./Gallery";
 export default function Main() {
     return (
         <main>
-            <article className="section">
+            <article>
                 <div className="container">
                     <h2>Welcome</h2>
 
