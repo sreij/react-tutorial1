@@ -56,12 +56,18 @@ header {
   flex-flow: row wrap;
 }
 
-body > * {
+body > div > * {
   background-color: red;
   padding: 1%;
 }
 
-main, header, nav, article, aside, footer, section {
+#content main,
+#content header,
+#content nav,
+#content article,
+#content aside,
+#content footer,
+#content section {
   background-color: rgba(0,255,0,0.5);
   padding: 1%;
 }
