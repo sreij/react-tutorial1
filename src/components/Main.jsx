@@ -3,7 +3,7 @@ import Gallery from "./Gallery";
 export default function Main() {
     return (
         <main>
-            <section className="section">
+            <article className="section">
                 <div className="container">
                     <h2>Welcome</h2>
 
@@ -11,10 +11,12 @@ export default function Main() {
 
                     <p>So don't waste time! Get what you need, then turn off that computer and get out into the great outdoors!</p>
                 </div>
-            </section>
-            <section className="section">
-                <Gallery />
-            </section>
+            </article>
+            <aside>
+                <div>
+                    <Gallery />
+                </div>
+            </aside>
         </main>
     );
 }

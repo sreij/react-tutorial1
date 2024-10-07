@@ -6,11 +6,12 @@ export default function Header() {
             <div className="hero-body">
                 <div className="container">
                     <h1 className="title">BIRDWATCHING</h1>
-                    <img src="dove.png" alt="a simple dove logo" />
-                    <Navi />
                 </div>
-                
             </div>
+            <div>
+                <img src="dove.png" alt="a simple dove logo" />
+            </div>
+            <Navi />
         </header>
     );
 }
