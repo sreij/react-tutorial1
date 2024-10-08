@@ -4,7 +4,7 @@ import Gallery from "./Gallery";
 export default function Main() {
     return (
         <main>
-            <section>
+            <section classname="section">
                 <Article />
             </section>
             <aside>
