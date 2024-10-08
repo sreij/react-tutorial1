@@ -1,12 +1,12 @@
-import Article from "./Article"
-import Gallery from "./Gallery";
+import Article from "./WelcomeMessage"
+import Side from "./ImageSideBar";
 
 export default function Main() {
     return (
         <main>
             <Article />
             <aside>
-                <Gallery />
+                <Side />
             </aside>
         </main>
     );
