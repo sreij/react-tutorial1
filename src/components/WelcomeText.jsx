@@ -1,4 +1,4 @@
-export default function Article() {
+export default function Welcome() {
     return (
         <article>
             <h2>Welcome</h2>

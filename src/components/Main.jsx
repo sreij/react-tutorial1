@@ -1,10 +1,10 @@
-import Article from "./WelcomeMessage"
+import Welcome from "./WelcomeText"
 import Side from "./ImageSideBar";
 
 export default function Main() {
     return (
         <main>
-            <Article />
+            <Welcome />
             <aside>
                 <Side />
             </aside>
