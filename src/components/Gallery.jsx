@@ -2,9 +2,9 @@ import Image from "./Image";
 
 export default function Gallery() {
   return (
-    <section>
+    <div>
       <h2>Favourite photos</h2>
       <Image />
-    </section>
+    </div>
   );
 }
